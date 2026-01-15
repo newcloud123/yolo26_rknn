@@ -1,0 +1,10 @@
+train: /data/luoshiyong/cvdata/train.txt
+# 验证集路径（若暂未准备，可先留空或注释，后续补充）
+val: /data/luoshiyong/cvdata/val.txt
+# 测试集路径（可选）
+# test: images/test  
+
+# 类别数（气球为1类，若有多个类别可修改）
+nc: 2
+# 类别名称（按标注时的类别ID顺序排列，ID从0开始）
+names: ['balloon','drone']  
