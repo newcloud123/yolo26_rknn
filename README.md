@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ```bash
 cd yolo26_rknn/yolo26
-python export.py
+python export_onnx.py
 ```
 
 **注意事项：**
